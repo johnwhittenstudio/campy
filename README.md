@@ -1,4 +1,4 @@
-# <p align="center"> 🥾 🏕️ 🗺️ **CAMPY: The Camp Planner App** 🚣 🥘🪓 </p>
+# <p align="center"> 🥾 🏕️ 🗺️ **CAMPY _The Camp Planner App_** 🚣 🥘🪓 </p>
 
 ### by _**John Whitten**_
 
