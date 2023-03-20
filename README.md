@@ -1,16 +1,47 @@
-# _**CAMPY: The Camp Planner App**_
+# <p align="center"> 🥾 🏕️ 🗺️ **CAMPY: The Camp Planner App** 🚣 🥘🪓 </p>
 
 ### by _**John Whitten**_
 
 ### _March 20, 2023_
 
+## Table of Contents
+
+1. [Description](#description)
+2. [Technologies Used](#technologies)
+3. [Creating APIs](#api)
+4. [Setup/Installation Requirements](#setup)
+5. [Known Bugs](#bugs)
+6. [Contact Information](#contact)
+7. [License](#license)
+
+## Description <a id="description"></a>
+
+## Project Title: CAMPY: The Camp Planner App
+
 #### _Campy is a web-based app wherein the user can organize a packing list, receive a weather forecast and a map for a specific inputted location, and search meal and cocktail recipes in order to plan for a camping trip._
 
-## Github Pages Link
+
+#### MVP Objective
+
+An app that helps a user organize a packing list, receive a weather forecast and a map for a specific inputted location, and research meal and cocktail recipes in order to help plan for an upcoming camping trip.
+
+### User Interface
+
+Campy consists of 5 HTML pages, each containing unique functions for user engagement.
+| HTML | UI Function |
+| ------ | ------ |
+| Index | Introduction landing page with images hyperlinked to their respective HTML. |
+| Gear | Drag and drop options from hard-coded lists based on various camping styles, each with unique packing list recommendations. |
+| Weather & Map | Search LocationIQ and OpenWeather APIs by entering a city & state to see a 7-day forecast and map. |
+| Meals | Search MealDB and CocktailDB APIs to get recipes with images, ingredients, measurements, and instructions. |
+| About | Information about the Dev team with links to individual GitHub and LinkedIn accounts. |
+
+
+<!-- ## Github Pages Link -->
 
 <!-- ### [Campy: The Camp Planner App ](https://johnwhittenstudio.github.io/camp-planner/)  -->
 
-## Technologies Used
+## Technologies Used <a id="technologies"></a>
 
 - _Babel 7.6.4_
 - _Bootstrap 5.1.3_
@@ -33,24 +64,9 @@
 - _webpack-cli 3.3.8_
 - _webpack-dev-server 3.8.0_
 
-## Project Title: CAMPY: The Camp Planner App
 
-#### MVP Objective
 
-An app that helps a user organize a packing list, receive a weather forecast and a map for a specific inputted location, and research meal and cocktail recipes in order to help plan for an upcoming camping trip.
-
-### User Interface
-
-Campy consists of 5 HTML pages, each containing unique functions for user engagement.
-| HTML | UI Function |
-| ------ | ------ |
-| Index | Introduction landing page with images hyperlinked to their respective HTML. |
-| Gear | Drag and drop options from hard-coded lists based on various camping styles, each with unique packing list recommendations. |
-| Weather & Map | Search LocationIQ and OpenWeather APIs by entering a city & state to see a 7-day forecast and map. |
-| Meals | Search MealDB and CocktailDB APIs to get recipes with images, ingredients, measurements, and instructions. |
-| About | Information about the Dev team with links to individual GitHub and LinkedIn accounts. |
-
-## Creating API Keys
+## Creating API Keys <a id="api"></a>
 
 This website requires 4 separate API keys:
 
@@ -100,7 +116,7 @@ _You will need to make an account and get an API key. The Free Trial version of 
 
 - At this point, you'll be able to access a dashboard that includes your API key as well as your remaining API calls for the month.
 
-## Project Setup/Installation Instructions
+## Project Setup/Installation Instructions <a id="setup"></a>
 
 - _Open the terminal on your local computer._
 
@@ -130,16 +146,24 @@ This environment was created on a Mac. For it to work properly in your local env
 
 - _Update package.json, line 8 to: "start": "npm run build & webpack-dev-server --open --mode development"_
 
-## Known Bugs
+## Known Bugs <a id="bugs"></a>
 
 - _None._
 
-## License
 
-[MIT License](https://opensource.org/licenses/MIT) Published _**2023**_ by _**John Whitten**_
-
-## Contact Information
+## Contact <a id="contact"></a>
 
 If you encounter any issues with this site, please contact the dev team:
 
 - John Whitten at [johnwhitten.studio@gmail.com](mailto:johnwhitten.studio@gmail.com)
+
+
+## License <a id="license"></a>
+
+Copyright (c) 2023 **_John Whitten_**
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
