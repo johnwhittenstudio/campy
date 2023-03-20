@@ -17,36 +17,30 @@ module.exports = {
     new Dotenv(),
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
-      title: 'camp-planner',
+      title: 'campy',
       template: './src/index.html',
       inject: 'body'
     }),
     new HtmlWebpackPlugin({
-      title: 'camp-planner-weather',
+      title: 'campy-weather',
       template: './src/weather.html',
       filename: 'weather.html',
       inject: 'weather-tab'
     }),
     new HtmlWebpackPlugin({
-      title: 'camp-planner-weather',
-      template: './src/map.html',
-      filename: 'map.html',
-      inject: 'map-tab'
-    }),
-    new HtmlWebpackPlugin({
-      title: 'camp-planner-weather',
+      title: 'campy-gear',
       template: './src/gear.html',
       filename: 'gear.html',
       inject: 'gear-tab'
     }),
     new HtmlWebpackPlugin({
-      title: 'camp-planner-weather',
+      title: 'campy-meals',
       template: './src/meals.html',
       filename: 'meals.html',
       inject: 'meals-tab'
     }),
     new HtmlWebpackPlugin({
-      title: 'camp-planner-weather',
+      title: 'campy-about',
       template: './src/about.html',
       filename: 'about.html',
       inject: 'about-tab'
