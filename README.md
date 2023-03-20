@@ -43,27 +43,12 @@ Campy consists of 5 HTML pages, each containing unique functions for user engage
 
 ## Technologies Used <a id="technologies"></a>
 
-- _Babel 7.6.4_
-- _Bootstrap 5.1.3_
-- _CSS_
-- _css-loader 3.2.0_
-- _eslint 6.3.0_
-- _eslint-loader 3.0.0_
-- _file-loader 1.1.6_
-- _html-loader 0.5.5_
-- _HTML_
-- _package-json_
-- _Javascript_
-- _Jest 24.9.0_
-- _JQuery 3.6.0_
-- _Node.js_
-- _Node Package Manager 6.14.9_
-- _popper.js 1.16.1_
-- _style-loader 1.0.0_
-- _webpack 4.39.3_
-- _webpack-cli 3.3.8_
-- _webpack-dev-server 3.8.0_
-
+* HTML
+* CSS
+* JavaScript
+* NPM
+* Webpack
+* API
 
 
 ## Creating API Keys <a id="api"></a>
