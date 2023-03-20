@@ -46,6 +46,7 @@ Campy consists of 5 HTML pages, each containing unique functions for user engage
 * HTML
 * CSS
 * JavaScript
+* jQuery
 * NPM
 * Webpack
 * API

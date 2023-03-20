@@ -1,0 +1,138 @@
+@font-face {
+  src: url(../assets/fonts/NationalPark-Regular.otf);
+  font-family: National Park Regular;
+}
+
+@font-face {
+  src: url(../assets/fonts/NationalPark-Outline.otf);
+  font-family: National Park Outline;
+}
+
+@font-face {
+  src: url(../assets/fonts/Wooden-Log.ttf);
+  font-family: Wooden Log;
+}
+
+
+/* Global styles
+---------------------------------------*/
+
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+html { 
+  background: url(../assets/images/camp_001_rev.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+h1 {
+  font-family: "Wooden Log";
+  margin: auto;
+  margin-top: 4%;
+  margin-bottom: 4%;
+  text-align: center;
+  color: #ffffff;
+  font-size: 60px;
+  font-weight: lighter;
+}
+
+h3 {
+  font-family: "Wooden Log";
+  /* margin: auto; */
+  text-align: center;
+  color: rgb(255, 203, 143);
+  font-size: 50px;
+  font-weight: lighter;
+}
+
+h5 {
+  font-family: "Wooden Log";
+  /* margin: auto; */
+  text-align: center;
+  padding-bottom: 2%;
+  color: rgb(255, 203, 143);
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+.content-wrap {
+  max-width: 800px;
+  width: 85%;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+
+
+/* Home Page styles
+---------------------------------------*/
+
+.mainlogo 
+  {
+    font-family: "Wooden Log";
+    margin: auto;
+    text-align: center;
+    font-size: 250px;
+    color: #441c01;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  .glow {
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px rgb(255, 203, 143),
+        0 0 40px rgb(255, 203, 143), 0 0 50px rgb(255, 203, 143),
+        0 0 60px rgba(106, 218, 252, 0.733), 0 0 70px rgb(255, 203, 143);
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px rgb(255, 203, 143),
+        0 0 40px rgba(106, 218, 252, 0.733), 0 0 50px rgba(106, 218, 252, 0.733),
+        0 0 60px rgb(255, 203, 143), 0 0 70px rgb(255, 203, 143),
+        0 0 80px rgba(106, 218, 252, 0.733);
+    }
+  }
+
+
+
+.links {
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+}
+
+
+.links a {
+  /* text-shadow: 2px 2px 12px rgb(253, 159, 51); */
+  -webkit-filter: drop-shadow(3px 3px 3px #222);
+  filter: drop-shadow(3px 3px 3px #222);
+}
+
+.links a:hover {
+  -webkit-filter: drop-shadow(3px 3px 3px #222);
+  filter: drop-shadow(3px 3px 12px rgba(0, 190, 248, 0.521));
+}
