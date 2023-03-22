@@ -191,9 +191,21 @@ h5 {
 
 /* Meals Page styles
 ---------------------------------------*/
+
+/* Global Recipe styles
+-------------------*/
+#ingredients {
+  margin-left: 2%;
+  text-align: left;
+}
+
+#measurements {
+  margin-left: 2%;
+  text-align: left;
+}
+
 /* Food Recipe styles
 -------------------*/
-
 .meal {
   float: left;
   width: 45%;
@@ -201,10 +213,9 @@ h5 {
   margin-left: 4%;
   margin-top: 1%;
 }
-
 .showName {
   color: #fecb8f;
-  border-bottom: 2px solid #fecb8f;
+  border-bottom: 2px dotted #fecb8f;
 }
 
 .ingredientsImage {
@@ -247,25 +258,26 @@ h5 {
   margin-top: 1%;
 }
 
-#search {
-  margin-left: 5%;
-}
-
-
-
 #drinkImageToShow {
-  max-width: 90%;
-  float: right;
-  padding-right: 15px;
-}
-
-.showName {
-  font-size: 70px;
+  max-width: 95%;
+  float: left;
+  padding: 15px;
 }
 
 .showDrinkName {
   font-size: 70px;
+  color: #fecb8f;
+  border-bottom: 2px dotted #fecb8f;
 }
+
+.showDrinkInstructions {
+  width: 85%;
+  margin: 15px auto;
+  line-height: 2;
+}
+
+
+
 
 .showCategory {
   font-size: 20px;
@@ -274,19 +286,6 @@ h5 {
 .showArea {
   font-size: 30px;
 }
-
-#ingredients {
-  margin-left: 2%;
-  text-align: left;
-}
-
-#measurements {
-  margin-left: 2%;
-  text-align: left;
-}
-
-
-
 
 /* About Page styles
 ---------------------------------------*/
@@ -401,65 +400,6 @@ h5 {
 
 
 
-.meal {
-  float: left;
-  width: 45%;
-  padding: 0 10px;
-  margin-left: 4%;
-  margin-top: 1%;
-  /* margin: 0 auto; */
-}
-
-.drink {
-  float: right;
-  width: 45%;
-  padding: 0 10px;
-  margin-right: 4%;
-  margin-top: 1%;
-  /* margin: 0 auto; */
-}
-
-#search {
-  margin-left: 5%;
-}
-
-/* #imageToShow {
-  max-width: 90%;
-  float: right;
-  padding-right: 15px;
-} */
-
-#drinkImageToShow {
-  max-width: 90%;
-  float: right;
-  padding-right: 15px;
-}
-
-.showName {
-  font-size: 70px;
-}
-
-.showDrinkName {
-  font-size: 70px;
-}
-
-.showCategory {
-  font-size: 20px;
-}
-
-.showArea {
-  font-size: 30px;
-}
-
-#ingredients {
-  margin-left: 2%;
-  text-align: left;
-}
-
-#measurements {
-  margin-left: 2%;
-  text-align: left;
-}
 
 /* Remove extra left and right margins, due to padding in columns */
 /* .row {
