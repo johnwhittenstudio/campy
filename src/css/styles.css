@@ -108,7 +108,35 @@ h5 {
   color: white;
   background-color: rgba(0, 190, 248, 0.301);
 }
+.column1 {
+  float: left;
+  width: 45%;
+  padding: 0 10px;
+  margin-left: 4%;
+  font-family: "National Park Regular";
+  font-size: 20px;
+  font-weight: lighter;
+}
 
+.column2 {
+  float: right;
+  width: 45%;
+  padding: 0 10px;
+  margin-right: 4%;
+  font-family: "National Park Regular";
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.container {
+  background-color: rgba(0, 190, 248, 0.701);
+  border-radius: 25px;
+  padding: 1rem;
+  margin-top: 1rem;
+  font-family: "National Park Regular";
+  font-size: 20px;
+  font-weight: lighter;
+}
 
 /* Home Page styles
 ---------------------------------------*/
@@ -174,7 +202,11 @@ h5 {
 
 /* Gear Page styles
 ---------------------------------------*/
-
+/* .column2 .card {
+  position: relative;
+  top: 0;
+  right: 0;
+} */
 
 
 /* Weather Page styles
@@ -274,6 +306,7 @@ h5 {
   width: 85%;
   margin: 15px auto;
   line-height: 2;
+  /* background-color: #fecb8f; */
 }
 
 
@@ -325,36 +358,6 @@ h5 {
 
 
 
-/* Float two columns side by side */
-.column1 {
-  float: left;
-  width: 45%;
-  padding: 0 10px;
-  margin-left: 4%;
-  font-family: "National Park Regular";
-  font-size: 20px;
-  font-weight: lighter;
-}
-
-.column2 {
-  float: right;
-  width: 45%;
-  padding: 0 10px;
-  margin-right: 4%;
-  font-family: "National Park Regular";
-  font-size: 20px;
-  font-weight: lighter;
-}
-
-.container {
-  background-color: rgba(0, 190, 248, 0.701);
-  border-radius: 25px;
-  padding: 1rem;
-  margin-top: 1rem;
-  font-family: "National Park Regular";
-  font-size: 20px;
-  font-weight: lighter;
-}
 
 .draggable {
   padding: 1rem;
@@ -413,17 +416,6 @@ h5 {
   clear: both;
 }
 
-/* Style the counter cards */
-.card {
-  margin-top: 2%;
-  border: 5px solid orange;
-  border-radius: 25px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
-  padding: 16px;
-  text-align: center;
-  color: white;
-  background-color: rgba(0, 190, 248, 0.301);
-}
 
 
 
@@ -435,14 +427,6 @@ a {
   text-decoration: none;
 }
 
-/* .navbar {
-  display: flex;
-  justify-content: space-between;
-  width: 100vw;
-  padding-top: 2%;
-  padding-bottom: 2%;
-  font-size: 20px;
-} */
 
 .logo {
   font-family: "Wooden Log";
@@ -451,7 +435,6 @@ a {
   color: #ffffff;
   font-size: 90px;
 }
-
 
 
 .logo:hover {
