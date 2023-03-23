@@ -630,38 +630,20 @@ a {
 @media screen and (max-width: 992px) {
   .mainlogo 
   {
-    font-family: "Wooden Log";
+    /* font-family: "Wooden Log";
     margin: auto;
-    text-align: center;
-    font-size: 250px;
-    color: #441c01;
+    text-align: center; */
+    font-size: 11rem;
+    /* color: #441c01;
     -webkit-animation: glow 1s ease-in-out infinite alternate;
     -moz-animation: glow 1s ease-in-out infinite alternate;
     animation: glow 1s ease-in-out infinite alternate;
-    margin: 50px auto; 
+    margin: 50px auto;  */
   }
-}
-
-
-
-@media screen and (max-width: 600px) {
-  .mainlogo 
-  {
-    font-family: "Wooden Log";
-    margin: auto;
-    text-align: center;
-    font-size: 110px;
-    color: #441c01;
-    -webkit-animation: glow 1s ease-in-out infinite alternate;
-    -moz-animation: glow 1s ease-in-out infinite alternate;
-    animation: glow 1s ease-in-out infinite alternate;
-    margin: 50px auto; 
-  }
-
 
   .subheader h2 {
     font-size: 40px;
-    margin-top: 5%;
+    margin-top: 15%;
   }
 
   .subheader h5 {
@@ -679,6 +661,47 @@ a {
     width: 120px;
     height: 120px;
     margin: 15px;
+  }
+}
+
+
+
+@media screen and (max-width: 600px) {
+  
+  .content-wrap {
+    max-width: 599px;
+    width: 90%;
+  }
+
+  .mainlogo 
+  {
+    font-size: 7rem;
+  }
+
+
+  .subheader h2 {
+    font-size: 40px;
+    padding: 10% auto;
+  }
+
+  .subheader h5 {
+    font-size: 20px;
+    margin-top: 15%;
+  }
+  
+  .links {
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid #fecb8f;
+    background-color: #feca8f47;
+    border-radius: 5px;
+    padding: 5%;
+  }
+
+  #landingEmoji {
+    width: 120px;
+    height: 120px;
+    margin: 25px;
   }
 }
 
