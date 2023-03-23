@@ -138,6 +138,55 @@ h5 {
   font-weight: lighter;
 }
 
+
+
+
+a {
+  text-decoration: none;
+}
+
+
+.logo {
+  font-family: "Wooden Log";
+  margin-left: 4%;
+  margin-right: 5%;
+  color: #ffffff;
+  font-size: 90px;
+}
+
+
+.logo:hover {
+  color: white;
+  text-shadow: 2px 2px 12px rgb(0, 190, 248);
+}
+
+.nav_links {
+  /* display: flex; */
+  font-family: "Wooden Log";
+  font-size: 30px;
+  color: rgb(255, 203, 143);
+  /* width: 20%; */
+  /* float: right; */
+  margin-right: 3%;
+  margin-left: 3%;
+  justify-content: space-between;
+  /* list-style: none; */
+}
+
+.nav_links:hover {
+  color: rgb(0, 190, 248);
+  text-shadow: 2px 2px 12px rgb(253, 159, 51);
+}
+
+.main_nav li {
+  display: inline;
+  color: #ffffff;
+}
+.nav_links li a {
+  color: #ffffff;
+}
+
+
 /* Home Page styles
 ---------------------------------------*/
 
@@ -184,6 +233,7 @@ h5 {
   display: flex;
   justify-content: space-evenly;
   margin: 25px auto;
+  width: 65%;
 }
 
 
@@ -226,6 +276,12 @@ h5 {
 
 /* Global Recipe styles
 -------------------*/
+.meals-content-wrap {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 5%;
+}
+
 #ingredients {
   margin-left: 2%;
   text-align: left;
@@ -241,13 +297,12 @@ h5 {
 .meal {
   float: left;
   width: 45%;
-  padding: 0 10px;
-  margin-left: 4%;
-  margin-top: 1%;
+  margin: 1% auto;
 }
 .showName {
   color: #fecb8f;
   border-bottom: 2px dotted #fecb8f;
+  padding-top: 25px;
 }
 
 .ingredientsImage {
@@ -256,6 +311,7 @@ h5 {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  border-bottom: none;
 }
 
 #imageToShow {
@@ -285,9 +341,7 @@ h5 {
 .drink {
   float: right;
   width: 45%;
-  padding: 0 10px;
-  margin-right: 4%;
-  margin-top: 1%;
+  margin: 1% auto;
 }
 
 #drinkImageToShow {
@@ -297,9 +351,10 @@ h5 {
 }
 
 .showDrinkName {
-  font-size: 70px;
+  /* font-size: 70px; */
   color: #fecb8f;
   border-bottom: 2px dotted #fecb8f;
+  padding-top: 25px;
 }
 
 .showDrinkInstructions {
@@ -421,52 +476,6 @@ h5 {
 
 
 
-
-
-a {
-  text-decoration: none;
-}
-
-
-.logo {
-  font-family: "Wooden Log";
-  margin-left: 4%;
-  margin-right: 5%;
-  color: #ffffff;
-  font-size: 90px;
-}
-
-
-.logo:hover {
-  color: white;
-  text-shadow: 2px 2px 12px rgb(0, 190, 248);
-}
-
-.nav_links {
-  /* display: flex; */
-  font-family: "Wooden Log";
-  font-size: 30px;
-  color: rgb(255, 203, 143);
-  /* width: 20%; */
-  /* float: right; */
-  margin-right: 3%;
-  margin-left: 3%;
-  justify-content: space-between;
-  /* list-style: none; */
-}
-
-.nav_links:hover {
-  color: rgb(0, 190, 248);
-  text-shadow: 2px 2px 12px rgb(253, 159, 51);
-}
-
-.main_nav li {
-  display: inline;
-  color: #ffffff;
-}
-.nav_links li a {
-  color: #ffffff;
-}
 
 /* styling for tabs ; this hides it all*/
 [data-tab-content] {
@@ -622,7 +631,71 @@ a {
 
 
 
+@media screen and (max-width: 1160px) {
 
+h1 {
+  font-size: 40px;
+}
+h5 {
+  font-size: 20px;
+}
+
+  .logo {
+  font-size: 50px;
+  margin: 15px;
+  /* padding: 15px; */
+}
+.links {
+  width: 80%;
+  margin-bottom: 25px;
+}
+
+.nav_links {
+  font-size: 25px;
+  color: rgb(255, 203, 143);
+  /* margin: 150px 3%; */
+  justify-content: space-between;
+}
+
+
+.meals-content-wrap {
+  display: flex;
+  flex-direction: column;
+  margin: 0 5%;
+}
+
+.meal {
+  width: 85%;
+  margin: 1% auto;
+}
+.meal h1 {
+  font-size: 80px;
+}
+
+.drink {
+  width: 85%;
+  margin: 1% auto;
+}
+.drink h1 {
+  font-size: 80px;
+}
+
+.ingredientsImage {
+flex-direction: column;
+margin: auto;
+
+}
+
+#imageToShow {
+  margin: auto;
+  padding: 0 auto;
+}
+.ingredientsRow {
+  padding: 15px 0;
+}
+
+
+}
 
 
 
@@ -651,18 +724,51 @@ a {
     margin-top: 15%;
   }
   
-  .links {
-    display: flex;
-    flex-wrap: wrap;
-
-  }
+  /* .links {
+    margin: 0 auto;
+  } */
+  /* .nav_links {
+    width: 155px;
+  } */
 
   #landingEmoji {
     width: 120px;
     height: 120px;
     margin: 15px;
   }
+
+
+
+
+  .meal {
+    width: 95%;
+    margin: 1% auto;
+  }
+  .meal h1 {
+    font-size: 60px;
+  }
+  
+  .drink {
+    width: 95%;
+    margin: 1% auto;
+  }
+  .drink h1 {
+    font-size: 60px;
+  }
+
+
 }
+
+/* .logo {
+  font-size: 50px;
+  margin: 55px;
+  padding-top: 25px;
+} */
+/* .navbar {
+  display: flex;
+  flex-direction: column;
+} */
+ 
 
 
 
@@ -675,12 +781,16 @@ a {
 
   .mainlogo 
   {
-    font-size: 7rem;
+    font-size: 8rem;
   }
 
+  h1 {
+    font-size: 30px;
+    padding: 0 15px;
+  }
 
   .subheader h2 {
-    font-size: 40px;
+    font-size: 35px;
     padding: 10% auto;
   }
 
@@ -689,10 +799,10 @@ a {
     margin-top: 15%;
   }
   
-  .links {
+#index {
     display: flex;
     flex-wrap: wrap;
-    border: 2px solid #fecb8f;
+    border: 2px dashed #fecb8f;
     background-color: #feca8f47;
     border-radius: 5px;
     padding: 5%;
@@ -702,6 +812,59 @@ a {
     width: 120px;
     height: 120px;
     margin: 25px;
+  }
+
+  .logo {
+    font-size: 110px;
+    margin: 0 auto;
+    /* padding: 15px; */
+  }
+
+  .links {
+    width: 90%;
+    margin: auto;
+    padding-bottom: 25px;
+  }
+  
+  .nav_links {
+    font-size: 20px;
+    color: rgb(255, 203, 143);
+    /* margin: 150px 3%; */
+    justify-content: space-between;
+  }
+
+  .meal {
+    width: 95%;
+    margin: 1% auto;
+  }
+  .meal h1 {
+    font-size: 50px;
+  }
+  
+  .drink {
+    width: 95%;
+    margin: 1% auto;
+  }
+  .drink h1 {
+    font-size: 50px;
+  }
+
+/*----------- ABOUT -----------*/
+  .about-content-wrap .card {
+    width: 95%;
+  }
+
+  .about-content-wrap .card h2 {
+    font-size: 80px;
+  }
+  .about-content-wrap .card h3 {
+    font-size: 60px;
+  }
+  .about-content-wrap .card h5 {
+    font-size: 30px;
+  }
+  .about-content-wrap .card .links{
+    margin: 2% auto;
   }
 }
 

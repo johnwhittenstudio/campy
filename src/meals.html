@@ -8,16 +8,20 @@
   <title>CAMPY</title>
 </head>
 <body>
-  <a href="./index.html" class="logo">CAMPY</a>
-  <a href="./gear.html" class="nav_links">GEAR</a>
-  <a href="./weather.html" class="nav_links">WEATHER & MAP</a>
-  <!-- <a href="./map.html" class="nav_links">MAP</a> -->
-  <a href="./meals.html" class="nav_links">MEALS</a>
-  <a href="./about.html" class="nav_links">ABOUT</a>
+  <div class="navbar">
+    <a href="./index.html" class="logo">CAMPY</a>
+    <div class="links">
+      <a href="./gear.html" class="nav_links">GEAR</a>
+      <a href="./weather.html" class="nav_links">WEATHER & MAP</a>
+      <!-- <a href="./map.html" class="nav_links">MAP</a> -->
+      <a href="./meals.html" class="nav_links">MEALS</a>
+      <a href="./about.html" class="nav_links">ABOUT</a>
+    </div>
+  </div>
 
   <h1>SEARCH FOR DELICIOUS RECIPES</h1>
   <div class="meals-content-wrap">
-    <!-- <div class="column"> -->
+
       
       <div class="meal">
         <div class="card">
@@ -29,10 +33,12 @@
           </div>
 
             <h1><div class="showName"></div></h1>
+            
             <div class="ingredientsImage">
               <div class="showimage">
                 <img id="imageToShow">
               </div>
+
               <div class="ingredientsRow">
                 <div id="ingredients" >
                   <div class="showIngredient1"></div>
@@ -79,51 +85,57 @@
                   <div class="showMeasurement20"></div>
                 </div>
               </div>  
+
             </div>
+
             <div class="showInstructions"></div>
-          </div>
+
         </div>
       </div>
       
 
-      <!-- <div class="column"> -->
-        <div class="drink">
-          <div class="card">
 
-            <h1>DRINK RECIPES</h1>
-            <div class="searchDrinks">
-              <input id="search2" type="text" placeholder="  ex: Bloody Mary">
-              <button class="btn-info" id="drinkSearch">YUM!</button>
-            </div>
+      <div class="drink">
+        <div class="card">
 
-              <h1><div class="showDrinkName"></div></h1>
-              <div class="ingredientsImage">
-                <div class="showDrinkImage">
-                  <img id="drinkImageToShow">
+          <h1>DRINK RECIPES</h1>
+          <div class="searchDrinks">
+            <input id="search2" type="text" placeholder="  ex: Bloody Mary">
+            <button class="btn-info" id="drinkSearch">YUM!</button>
+          </div>
+
+            <h1><div class="showDrinkName"></div></h1>
+            
+            <div class="ingredientsImage">
+              <div class="showDrinkImage">
+                <img id="drinkImageToShow">
+              </div>
+
+              <div class="ingredientsRow">
+                <div id="ingredients" >
+                  <div class="showDrinkIngredient1"></div>
+                  <div class="showDrinkIngredient2"></div>
+                  <div class="showDrinkIngredient3"></div>
+                  <div class="showDrinkIngredient4"></div>
+                  <div class="showDrinkIngredient5"></div>
+                  <div class="showDrinkIngredient6"></div>
                 </div>
-                <div class="ingredientsRow">
-                  <div id="ingredients" >
-                    <div class="showDrinkIngredient1"></div>
-                    <div class="showDrinkIngredient2"></div>
-                    <div class="showDrinkIngredient3"></div>
-                    <div class="showDrinkIngredient4"></div>
-                    <div class="showDrinkIngredient5"></div>
-                    <div class="showDrinkIngredient6"></div>
-                  </div>
-                  <div id="measurements" >
-                    <div class="showDrinkMeasurement1"></div>
-                    <div class="showDrinkMeasurement2"></div>
-                    <div class="showDrinkMeasurement3"></div>
-                    <div class="showDrinkMeasurement4"></div>
-                    <div class="showDrinkMeasurement5"></div>
-                    <div class="showDrinkMeasurement6"></div>
-                  </div>
+                <div id="measurements" >
+                  <div class="showDrinkMeasurement1"></div>
+                  <div class="showDrinkMeasurement2"></div>
+                  <div class="showDrinkMeasurement3"></div>
+                  <div class="showDrinkMeasurement4"></div>
+                  <div class="showDrinkMeasurement5"></div>
+                  <div class="showDrinkMeasurement6"></div>
                 </div>
               </div>
-              <div class="showDrinkInstructions"></div>
-          </div>
+
+            </div>
+            <div class="showDrinkInstructions"></div>
+        </div>
       </div>
-    </div>
+
+
   </div>
 </body>
 </html>
