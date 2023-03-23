@@ -617,3 +617,68 @@ a {
   color: white;
   background-color: rgba(0, 190, 248, 0.301);
 }
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 992px) {
+  .mainlogo 
+  {
+    font-family: "Wooden Log";
+    margin: auto;
+    text-align: center;
+    font-size: 250px;
+    color: #441c01;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+    margin: 50px auto; 
+  }
+}
+
+
+
+@media screen and (max-width: 600px) {
+  .mainlogo 
+  {
+    font-family: "Wooden Log";
+    margin: auto;
+    text-align: center;
+    font-size: 110px;
+    color: #441c01;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+    margin: 50px auto; 
+  }
+
+
+  .subheader h2 {
+    font-size: 40px;
+    margin-top: 5%;
+  }
+
+  .subheader h5 {
+    font-size: 20px;
+    margin-top: 15%;
+  }
+  
+  .links {
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+
+  #landingEmoji {
+    width: 120px;
+    height: 120px;
+    margin: 15px;
+  }
+}
+
