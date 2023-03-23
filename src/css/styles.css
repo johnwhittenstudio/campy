@@ -233,8 +233,8 @@ a {
   display: flex;
   justify-content: space-evenly;
   margin: 25px auto;
-  width: 65%;
 }
+
 
 
 .links a {
@@ -248,6 +248,13 @@ a {
   filter: drop-shadow(3px 3px 12px rgba(0, 190, 248, 0.521));
 }
 
+
+.navbar .links {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 25px auto;
+  width: 55%;
+}
 
 
 /* Gear Page styles
@@ -650,6 +657,7 @@ h5 {
   margin-bottom: 25px;
 }
 
+
 .nav_links {
   font-size: 25px;
   color: rgb(255, 203, 143);
@@ -724,12 +732,9 @@ margin: auto;
     margin-top: 15%;
   }
   
-  /* .links {
-    margin: 0 auto;
-  } */
-  /* .nav_links {
-    width: 155px;
-  } */
+  .navbar .links {
+    width: 95%;
+  }
 
   #landingEmoji {
     width: 120px;
@@ -826,6 +831,8 @@ margin: auto;
     padding-bottom: 25px;
   }
   
+ 
+
   .nav_links {
     font-size: 20px;
     color: rgb(255, 203, 143);
